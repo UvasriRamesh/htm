@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(peachpuff,mistyrose,rgba(61, 249, 255, 0.586),thistle,cornsilk);
+    padding: 100px;
+    
+} 
+
+input{
+    width: 320px;
+    border: 5px;
+    padding: 24px;
+    margin: 10px;
+    background: whitesmoke;
+    box-shadow: inset 4px 4px 10px rgba(255, 166, 0, 0.53) ,
+    inset -8px -8px 15px rgba(61, 249, 255, 0.586);
+    font-size: 45px;
+    text-align: left;
+    color: rgb(21, 11, 63);
+ }
+ button{
+    border: navajowhite;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+   background: whitesmoke;
+    color: rgb(21, 11, 63);
+    font-size: 30px;
+    box-shadow: inset 4px 4px 10px rgba(61, 249, 255, 0.586) ,
+    inset -8px -8px 15px rgba(255, 166, 0, 0.53);
+   
+ }
+ button:active{
+   scale:1.1;
+ }
+ 
+ 
